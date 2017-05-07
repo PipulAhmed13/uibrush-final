@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Fjalla+One')
+/*font-family: 'Fjalla One', sans-serif;
+font-family: 'Exo 2', sans-serif;
+*/
+
+
+body {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-default {
+    background-color: rgba(51, 51, 51, 0.46);
+    border-color: transparent;
+}
+
+.slider {
+	background: url(../images/top_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	max-width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+.slider-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+
+}
+
+.slider-content h1 {
+	color: white;
+	font-family: 'Fjalla One', sans-serif; 
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.btn-custom {
+	margin-top: 30px;
+	text-transform: uppercase;
+	background: #3AC9D9;
+	color: white;
+	border-radius: 1;
+	border: 1px solid #3AC9D9;
+	transition: all 0.4s ease;
+
+
+}
+
+.btn-custom:hover {
+	background: transparent;
+	color: white;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #3ac9d9;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #3ac9d9;
+
+}
+
+.navbar-default .navbar-brand span {
+	color: white;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #3ac9d9;
+
+}
+.aboutus-sec {
+	padding: 70px 0;
+}
+.heading {
+	padding-bottom: 50px;
+}
+
+.heading p {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.abt-img img {
+	margin: 0 auto
+}
+
+.about-us h3 {
+	position: relative;
+}
+
+.about-us h3:after {
+	position: absolute;
+    content: "";
+    width: 0;
+    height: 5px;
+    background: #3ac9d9;
+    top: 25px;
+    left: 0;
+    top: 28px;
+    transition: all 0.4s ease;
+}
+
+.aboutus-sec:hover .about-us h3:after {
+	width: 140px;
+
+}
+
+.portfolio {
+	margin: 30px 0;
+}
+
+.portfolio-section {
+	padding: 70px 0;
+	background: #F4F4F4;
+	border-bottom: 1px solid;
+
+
+
+}
+
+.portfolio-img {
+	position: relative;
+
+
+}
+.portfolio-img img {
+	margin: 0 auto;
+
+}
+
+.btn-hover {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	color: white;
+	border: 1px solid white;
+	border-radius: 1;
+	text-transform: uppercase;
+	opacity: 0;
+
+
+}
+
+.portfolio-img:hover .btn-hover {
+	opacity: 1;
+
+}
+
+.caption {
+	padding: 10px 0;
+}
+
+.services-section {
+	border-bottom: 1px solid;
+	padding: 70px 0;
+}
+
+
+.btn-custom3 {
+	margin-top: 10px;
+	background: gray;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 1;
+	border: 1px solid;
+	transition: all 0.4s ease;
+
+}
+
+.service-content:hover {
+	color:#FFF;
+	background-color: #39c9da;
+}
+
+/*.blue-bg {
+	background-color: #39c9da;*/
+
+.thumbnail {
+}
+
+.service-content p {
+	padding: 15px 0;
+	margin: 5px;
+}
+.service-content {
+	padding-top:30px;
+	padding-bottom: 30px;
+	display: block;
+}
+
+.service-content img {
+	margin: 0 auto;
+	padding: 5px 0;
+
+}
+
+.service-content h4 {
+	padding: 15px 0;
+
+}
+
+.service-content p {
+	padding: 5px 0;
+
+}
+
+.contact-us-section {
+	padding: 70px 0;
+	background: #DFDFDF;
+}
+
+
+.btn-custom4 {
+	text-transform: uppercase;
+	background: #3AC9D9;
+	color: white;
+	border: 1px solid #3AC9D9;
+	margin-top: 20px;
+
+
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.address {
+	padding-top: 20px;
+}
+.footer {
+	background: #3AC9D9;
+	padding: 20px 0;
+}
